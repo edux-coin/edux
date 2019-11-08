@@ -1,0 +1,26 @@
+# /etc/conf.d/eduxd: config file for /etc/init.d/eduxd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/edux/edux.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/eduxd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/eduxd.pid"
+
+# Where to write eduxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/eduxd"
+
+# User and group to own eduxd process
+#BITCOIND_USER="edux"
+#BITCOIND_GROUP="edux"
+
+# Path to eduxd executable
+#BITCOIND_BIN="/usr/bin/eduxd"
+
+# Nice value to run eduxd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

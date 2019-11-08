@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Edux
+Comment=Edux P2P Cryptocurrency
+Comment[fr]=Edux, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Edux, eşten eşe kriptografik sanal para birimi
+Exec=edux-qt %u
+Terminal=false
+Type=Application
+Icon=edux128
+MimeType=x-scheme-handler/edux;
+Categories=Office;Finance;
